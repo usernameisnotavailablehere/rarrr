@@ -1,6 +1,6 @@
 (async function() {
-  if (self.ludicrous&&self.ludicrous.sw) {
-    (await self.ludicrous.sw());
+  if (self.Website for people who dont care about school&&self.Website for people who dont care about school.sw) {
+    (await self.Website for people who dont care about school.sw());
     await navigator.serviceWorker.ready;
   } 
   
