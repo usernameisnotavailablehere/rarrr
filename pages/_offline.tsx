@@ -77,12 +77,12 @@ const Offline: NextPage = ({ particles }: any) => {
   return (
     <div className={styles.main}>
       <Head>
-        <meta name="description" content="Ludicrous | A School Site" />
+        <meta name="description" content="Website for people who dont care about school | A School Site" />
         <meta name="theme-color" content="#2467a5" />
         <meta charSet='utf-8' />
         <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
         <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' />
-        <title>Ludicrous - Offline</title>
+        <title> Website for people who dont care about school - Offline</title>
         <link rel='manifest' href='/manifest.json' />
         <link href='/icons/favicon-16x16.png' rel='icon' type='image/png' sizes='16x16' />
         <link href='/icons/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
@@ -98,7 +98,7 @@ const Offline: NextPage = ({ particles }: any) => {
           <div className={styles["main-page-about-init"]} id={"ab-cloak"} onClick={Settings}><IoSettingsOutline /></div>
 
           <div id={styles["main-page-init"]}>
-            <h1 className={styles["main-title"]}><span>Ludicrous</span> <FaGithub style={{"cursor": "pointer"}} onClick={(e) => {window.open('https://github.com/ludicrousdevelopment/ludi');}} /></h1>
+            <h1 className={styles["main-title"]}><span>Website for people who dont care about school</span> <FaGithub style={{"cursor": "pointer"}} onClick={(e) => {window.open('https://github.com/usernameisnotavailablehere');}} /></h1>
             <h3 className={styles["main-desc"]}>{"You're Offline!"}</h3>
           </div>
         </div>
