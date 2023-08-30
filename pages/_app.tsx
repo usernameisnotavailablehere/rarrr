@@ -315,7 +315,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         }
       });
       } catch {};
-    } else window.document.title = 'Ludicrous';
+    } else window.document.title = 'Website for people who dont care about school';
 
     const frame: any = document.getElementById(styles['game-frame']);
 
