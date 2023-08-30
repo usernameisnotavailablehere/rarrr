@@ -181,12 +181,12 @@ const Home: NextPage = ({ particles }: any) => {
   return (
     <div className={styles.main}>
       <Head>
-        <meta name="description" content="Ludicrous | A School Site" />
+        <meta name="description" content="Website for people who dont care about school | A School Site" />
         <meta name="theme-color" content="#2467a5" />
         <meta charSet='utf-8' />
         <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
         <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover, maximum-scale=6'/>
-        <title>Ludicrous</title>
+        <title>Website for people who dont care about school</title>
         <link rel='manifest' href='/manifest.json' />
         <link href='/icons/favicon-16x16.png' rel='icon' type='image/png' sizes='16x16' />
         <link href='/icons/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
@@ -202,7 +202,7 @@ const Home: NextPage = ({ particles }: any) => {
           <div className={styles["main-page-about-init"]} id="ab-cloak" onClick={Settings}><IoSettingsOutline /></div>
 
           <div id={styles["main-page-init"]}>
-            <h1 className={styles["main-title"]}><span>Ludicrous</span> <FaGithub style={{"cursor": "pointer"}} onClick={(e) => {window.open('https://github.com/ludicrousdevelopment/ludi');}} /></h1>
+            <h1 className={styles["main-title"]}><span>Website for people who dont care about school</span> <FaGithub style={{"cursor": "pointer"}} onClick={(e) => {window.open('https://github.com/ludicrousdevelopment/ludi');}} /></h1>
             <h2 className={styles["main-desc"]}>Surf the Unblo​cked Web</h2>
             <form method="GET" id={styles.form} action="/route">
               <input name="query" id={styles["main-input"]} placeholder="Enter URL or Search Query" list="defaults" autoComplete="off" />
