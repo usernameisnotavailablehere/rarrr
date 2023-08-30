@@ -18,29 +18,29 @@ const Close: Function = () => {
 const g: any = global || {};
 
 const appClicked: any = function(event: any) {
-  if (!event.nativeEvent.path) var el = event.nativeEvent.target.getAttribute('ludicrous-launch-url')?event.nativeEvent.target:event.nativeEvent.target.parentNode;
+  if (!event.nativeEvent.path) var el = event.nativeEvent.target.getAttribute('Website for people who dont care about school-launch-url')?event.nativeEvent.target:event.nativeEvent.target.parentNode;
   else var el = (event.nativeEvent.path||[]).find((e:any)=>e.classList&&e.classList.contains(styles['app']));
 
-  var app = el.getAttribute('ludicrous-launch-url');
+  var app = el.getAttribute('Website for people who dont care about school-launch-url');
 
   location.href = '/route?query='+(encodeURIComponent(app));
 }
 
 const noAppClicked: any = function(event: any) {
-  if (!event.nativeEvent.path) var el = event.nativeEvent.target.getAttribute('ludicrous-launch-url')?event.nativeEvent.target:event.nativeEvent.target.parentNode;
+  if (!event.nativeEvent.path) var el = event.nativeEvent.target.getAttribute('Website for people who dont care about school-launch-url')?event.nativeEvent.target:event.nativeEvent.target.parentNode;
   else var el = (event.nativeEvent.path||[]).find((e:any)=>e.classList&&e.classList.contains(styles['app']));
 
-  var app = el.getAttribute('ludicrous-launch-url');
+  var app = el.getAttribute('Website for people who dont care about school-launch-url');
 
   if (g.openFrame) g.openFrame(app, false);
   history.pushState(null, '', location.pathname+'?origin='+app);
 }
 
 const gameClicked: any = function(event: any) {
-  if (!event.nativeEvent.path) var el = event.nativeEvent.target.getAttribute('ludicrous-launch-url')?event.nativeEvent.target:event.nativeEvent.target.parentNode;
+  if (!event.nativeEvent.path) var el = event.nativeEvent.target.getAttribute('Website for people who dont care about school-launch-url')?event.nativeEvent.target:event.nativeEvent.target.parentNode;
   else var el = (event.nativeEvent.path||[]).find((e:any)=>e.classList&&e.classList.contains(styles['app']));
 
-  var app = el.getAttribute('ludicrous-launch-url');
+  var app = el.getAttribute('Website for people who dont care about school-launch-url');
 
   if (g.openFrame) g.openFrame('/gfiles/html5/'+app+'/', false);
   history.pushState(null, '', location.pathname+'?origin=/gfilesgfiles/html5/'+app+'/');
@@ -220,12 +220,12 @@ const Apps: NextPage = ({ apps, games, bookmarks, particles, origin }: any) => {
   return (
     <div className={styles.main}>
       <Head>
-        <meta name="description" content="Ludicrous | A School Site" />
+        <meta name="description" content="Website for people who dont care about school | A School Site" />
         <meta name="theme-color" content="#2467a5" />
         <meta charSet='utf-8' />
         <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
         <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover, maximum-scale=6'/>
-        <title>Ludicrous - Apps</title>
+        <title>Website for people who dont care about school - Apps</title>
         <link rel='manifest' href='/manifest.json' />
         <link href='/icons/favicon-16x16.png' rel='icon' type='image/png' sizes='16x16' />
         <link href='/icons/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
@@ -248,7 +248,7 @@ const Apps: NextPage = ({ apps, games, bookmarks, particles, origin }: any) => {
                 apps.map((app: any) => {
                   if (app.proxy==false) {
                     return (
-                      <div onClick={noAppClicked} key={app.id} className={styles.app} ludicrous-launch-url={app.url}>
+                      <div onClick={noAppClicked} key={app.id} className={styles.app} Website for people who dont care about school-launch-url={app.url}>
                         <img src={app.icon} alt='' />
                         <h3>{app.name}</h3>
                       </div>
@@ -256,7 +256,7 @@ const Apps: NextPage = ({ apps, games, bookmarks, particles, origin }: any) => {
                   }
                   
                   return (
-                    <div onClick={appClicked} key={app.id} className={styles.app} ludicrous-launch-url={app.url}>
+                    <div onClick={appClicked} key={app.id} className={styles.app} Website for people who dont care about school-launch-url={app.url}>
                       <img src={app.icon} alt='' />
                       <h3>{app.name}</h3>
                     </div>
@@ -272,7 +272,7 @@ const Apps: NextPage = ({ apps, games, bookmarks, particles, origin }: any) => {
               {
                 games.map((game: any) => {
                   return (
-                    <div key={game.id} onClick={gameClicked} ludicrous-launch-url={game.id} className={styles.app}>
+                    <div key={game.id} onClick={gameClicked} Website for people who dont care about school-launch-url={game.id} className={styles.app}>
                       <img src={'/img/'+game.id+'.png'} alt='' />
                       <h3>{game.name}</h3>
                     </div>
