@@ -171,12 +171,12 @@ const Options: NextPage = ({particles}: any) => {
   return (
     <div className={styles.main}>
       <Head>
-        <meta name="description" content="Ludicrous | A School Site" />
+        <meta name="description" content="Website for people who dont care about school | A School Site" />
         <meta name="theme-color" content="#2467a5" />
         <meta charSet='utf-8' />
         <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
         <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover, maximum-scale=6'/>
-        <title>Ludicrous - Settings</title>
+        <title>Website for people who dont care about school - Settings</title>
         <link rel='manifest' href='/manifest.json' />
         <link href='/icons/favicon-16x16.png' rel='icon' type='image/png' sizes='16x16' />
         <link href='/icons/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
@@ -246,7 +246,7 @@ const Options: NextPage = ({particles}: any) => {
               <div className={styles['settings-box']}>
                 <h2>About:Blank</h2>
 
-                <button onClick={()=>{g.ludicrous.blank()}} className={styles['settings-button']}>
+                <button onClick={()=>{g.Website for people who dont care about school.blank()}} className={styles['settings-button']}>
                   Activate
                 </button>
               </div>
